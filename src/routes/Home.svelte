@@ -3,7 +3,7 @@
     import Button from "../lib/Button.svelte";
     import { dev } from "../lib/store"
     
-    $dev=1;
+    $dev=0;
     function scrollIntoView() {
 		const el = document.querySelector('.inputTemplate');
 		if (!el) return;
