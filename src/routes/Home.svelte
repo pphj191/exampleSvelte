@@ -18,7 +18,7 @@
         <h1>2023</h1>
         <h2>전화 여론조사</h2>
         <p>전화기반으로 다수에게 빠르게 여론조사를 할 수 있습니다</p>
-        <button on:click|preventDefault={scrollIntoView}> 바로 시작하기 </button>
+        <Button on:click={scrollIntoView} />
     </div>
 </div>
 <!-- 실제 여론조사 페이지 -->
@@ -44,6 +44,7 @@
         content: "Hello";
         position: absolute;
         background: url("../assets/subway.jpg");
+        background-attachment: fixed;
         background-size: cover;
         opacity: 0.3;
         z-index: -1;
